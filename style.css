@@ -1,0 +1,140 @@
+/* Colors
+#8fb61c
+#516b0a;
+#294402
+
+#90a955
+#31572c
+#132a13
+ */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: -webkit-fill-available;
+}
+
+body {  
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+  overflow-y: hidden;
+  background: #31572c;
+  color: white;
+}
+#coor{
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
+
+.slider {
+  font-family: sans-serif;
+  -ms-scroll-snap-type: x mandatory;
+      scroll-snap-type: x mandatory;
+  display: flex;
+  -webkit-overflow-scrolling: touch;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+section {
+  /* border-right: 1px solid rgb(247, 0, 0); */
+  /* padding: 1rem; */
+  min-width: 100vw;
+  height: 100vh;
+  scroll-snap-align: start;
+  overflow-y: hidden;
+  position: relative;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center; */
+}
+
+/* JS added */
+.jspic{   
+  opacity: 1;
+  animation: linear;
+  animation-name: pic;
+  animation-duration: 3s;
+}
+
+@media (orientation: portrait) { 
+  .hand{
+    position: absolute;
+    top: 60vh;
+    left: 80vw;
+    /* border: blue solid 1px; */
+    animation: linear infinite;
+    animation-name: run;
+    animation-duration: 2s;
+  }
+  .hand img{
+    height: 20vh;
+    opacity: .5;
+  }
+  .back{
+    position: absolute;
+    top: 30vh;
+  }
+  .back img{
+    height: 70vh;
+    width: 100vw;
+  }
+  .bkup{
+    transform: scaleX(-1);
+  }
+  .imgsoap{
+    /* opacity: 0; */
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .imgsoap img{
+    width: 50vw;
+    filter: drop-shadow(0px 5px 5px #222);
+  }
+
+
+
+
+  
+}
+@media (orientation: landscape) {
+
+
+
+}
+
+@keyframes pic {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+@keyframes run {
+  0% {
+    left: 80%;
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;    
+  }
+  80% {
+    opacity: 1;    
+  }
+  100% {
+    left: 60%;
+    opacity: 0;    
+  }
+}
