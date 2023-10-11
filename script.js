@@ -1,3 +1,7 @@
+window.onload = function(){
+	console.log("Hola!.This page is loaded!")
+
+
 const init = function(){
 	let items = document.querySelectorAll('section');
 	let coor = document.getElementById('coor');	
@@ -26,7 +30,40 @@ scrollElement.addEventListener('scroll', function () {
   console.log('active section:', actsec)
   console.log(pics)
 //   pics[actsec-1].classList.add('jspic')
+	if(actsec > 1.9 && actsec < 2.1){
+		console.log('ok - 2')
+		// document.getElementById('soap3').classList.add('jspic')
+		// document.getElementById('soap3').classList.remove('imgsoap')
+		anime({
+			targets: '.imgsoap',
+			translateY: 250
+		  });
+	}
 });
+
+anime({
+	targets: '.fpart',
+	opacity: 1,
+	duration: 10000,
+	delay: anime.stagger(300) // increase delay by 100ms for each elements.
+  });
+
+anime({
+  targets: '.anchor',
+  strokeDashoffset: [anime.setDashoffset, 0],
+  easing: 'easeInOutCubic',
+  duration: 4000,
+  delay: 5000,
+})
+
+        anime({
+            targets: '.moving',
+            translateX: 1000,
+        });
+
+const moving = document.getElementById('moving')
+console.log(moving)
+
 
 	for (let i = 0; i < items.length; i++){
 		items[i].style.background = randomColor({luminosity: 'light'});
@@ -36,4 +73,4 @@ scrollElement.addEventListener('scroll', function () {
 }
 init();
 
-
+};
