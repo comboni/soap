@@ -105,10 +105,23 @@ section {
   left: 40vw;
   z-index: 100;
 }
+.gua4{
+  position: absolute;
+  bottom: calc(var(--vh, 1vh) * 5);
+  left: 60vw;
+  z-index: 100;
+}
+.gua5{
+  position: absolute;
+  bottom: 0vh;
+  left: 80vw;
+  z-index: 100;
+}
+
 
 .hand{
   position: absolute;
-  bottom: 10dvh;
+  bottom: calc(var(--vh, 1vh) * 10);
   left: 80vw;
   /* border: blue solid 1px; */
   animation: linear infinite;
@@ -177,7 +190,7 @@ section {
 }
 .imgpos3{
   position: absolute;
-  bottom: 5vh;
+  bottom: calc(var(--vh, 1vh) * 5);
   width: 100vw;
   display: flex;
   align-items: center;
