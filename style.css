@@ -7,7 +7,7 @@
 #31572c
 #132a13
  */
- html, body { height: 100% }
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -91,15 +91,19 @@ section {
 .gua1{
   position: absolute;
   bottom: 0vh;
-  left: 20vw;
+  left: 30vw;
   z-index: 100;
 }
 .gua2{
   position: absolute;
-  bottom: 10vh;
+  top: calc(var(--vh, 1vh) * 97);
   z-index: 100;
 }
-
+.gua3{
+  position: absolute;
+  top: calc(var(--vh, 1vh) * 80);
+  z-index: 100;
+}
 
 .hand{
   position: absolute;
