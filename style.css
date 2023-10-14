@@ -87,10 +87,23 @@ section {
 }
 
 /* ------ SECTION 1 ------- */
+.gua1{
+  position: absolute;
+  bottom: 0vh;
+  left: 20vw;
+  z-index: 100;
+}
+.gua2{
+  position: absolute;
+  bottom: 0svh;
+  z-index: 100;
+}
+
 
 .hand{
   position: absolute;
-  bottom: calc(var(--vh, 1vh) * 5); /*see custom property --vh in script.js */
+  /*bottom: calc(var(--vh, 1vh) * 5); /*see custom property --vh in script.js */
+  bottom: 10dvh;
   left: 80vw;
   /* border: blue solid 1px; */
   animation: linear infinite;
