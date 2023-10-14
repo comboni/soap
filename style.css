@@ -90,7 +90,7 @@ section {
 
 .hand{
   position: absolute;
-  bottom: 10vh;
+  bottom: calc(var(--vh, 1vh) * 5); /*see custom property --vh in script.js */
   left: 80vw;
   /* border: blue solid 1px; */
   animation: linear infinite;
