@@ -96,18 +96,18 @@ section {
 }
 .gua2{
   position: absolute;
-  top: calc(var(--vh, 1vh) * 97);
+  top: 97vh;
   z-index: 100;
 }
 .gua3{
   position: absolute;
-  top: calc(var(--vh, 1vh) * 80);
+  top: calc(var(--vh, 1vh) * 97);
+  left: 40vw;
   z-index: 100;
 }
 
 .hand{
   position: absolute;
-  /*bottom: calc(var(--vh, 1vh) * 5); /*see custom property --vh in script.js */
   bottom: 10dvh;
   left: 80vw;
   /* border: blue solid 1px; */
@@ -123,7 +123,7 @@ section {
 
 .logo{
   position: absolute;
-  top: calc(var(--vh, 1vh) * 5);
+  top: 10vh;
   width: 100vw;
   overflow: hidden;
   display: flex;
@@ -143,14 +143,14 @@ section {
 
 .text1{
   position: absolute;
-  top: calc(var(--vh, 1vh) * 50);
+  top: 50vh;
 }
 
 /* ------ SECTION 2 ------- */
 
 .text2{
   position: absolute;
-  top: calc(var(--vh, 1vh) * 10);
+  top: 10vh;
 }
 
 .imgsoap1{
@@ -177,7 +177,7 @@ section {
 }
 .imgpos3{
   position: absolute;
-  bottom: calc(var(--vh, 1vh) * 5);
+  bottom: 5vh;
   width: 100vw;
   display: flex;
   align-items: center;
