@@ -90,7 +90,7 @@ section {
 
 .hand{
   position: absolute;
-  bottom: 5vh;
+  bottom: 10vh;
   left: 80vw;
   /* border: blue solid 1px; */
   animation: linear infinite;
@@ -99,13 +99,13 @@ section {
   z-index: 10;
 }
 .hand img{
-  height: 10vh;
+  width: 10vh;
   opacity: 1;
 }
 
 .logo{
   position: absolute;
-  top: 10vh;
+  top: 5vh;
   width: 100vw;
   overflow: hidden;
   display: flex;
@@ -125,7 +125,7 @@ section {
 
 .text1{
   position: absolute;
-  bottom: 20vh;
+  top: 50vh;
 }
 
 
