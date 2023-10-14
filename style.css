@@ -105,7 +105,7 @@ section {
 
 .logo{
   position: absolute;
-  top: 5vh;
+  top: calc(var(--vh, 1vh) * 5);
   width: 100vw;
   overflow: hidden;
   display: flex;
@@ -125,23 +125,19 @@ section {
 
 .text1{
   position: absolute;
-  top: 50vh;
+  top: calc(var(--vh, 1vh) * 50);
 }
-
-
-
-
 
 /* ------ SECTION 2 ------- */
 
 .text2{
   position: absolute;
-  top: 10vh;
+  top: calc(var(--vh, 1vh) * 10);
 }
 
 .imgsoap1{
   position: absolute;
-  bottom: 5vh;
+  bottom: calc(var(--vh, 1vh) * 5);
   width: 100vw;
   /* overflow: hidden; */
   display: flex;
@@ -163,7 +159,7 @@ section {
 }
 .imgpos3{
   position: absolute;
-  bottom: 5vh;
+  bottom: calc(var(--vh, 1vh) * 5);
   width: 100vw;
   display: flex;
   align-items: center;
@@ -178,11 +174,11 @@ section {
 /* ------ SECTION 4 ------- */
 .text4{
   position: absolute;
-  bottom: 20vh;
+  bottom: calc(var(--vh, 1vh) * 20);
 }
 .imgpos4{
   position: absolute;
-  top: 5vh;
+  top: calc(var(--vh, 1vh) * 5);
   width: 100vw;
   display: flex;
   align-items: center;
@@ -195,7 +191,7 @@ section {
 }
 .imgpos4b{
   position: absolute;
-  bottom: 0vh;
+  bottom: calc(var(--vh, 1vh) * 0);
   width: 100vw;
   display: flex;
   align-items: center;
@@ -212,7 +208,7 @@ section {
 /* ------ SECTION 5 ------- */
 .text5{
   position: absolute;
-  top: 10vh;
+  top: calc(var(--vh, 1vh) * 10);
 }
 
 /* ------ SECTION 6 ------- */
