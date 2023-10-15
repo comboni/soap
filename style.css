@@ -73,51 +73,21 @@ section {
   width: 70vw;
   margin-left: 15vw;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: medium;
+  font-size:large;
   text-align: center;
 }
 .titlesoap{
   position: absolute;
-  top: 10vh;
+  top: 5vh;
   width: 70vw;
   margin-left: 15vw;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: large;
+  font-size: larger;
   text-align: center;
   font-weight: bold;
 }
 
 /* ------ SECTION 1 ------- */
-.gua1{
-  position: absolute;
-  bottom: 0vh;
-  left: 30vw;
-  z-index: 100;
-}
-.gua2{
-  position: absolute;
-  top: 97vh;
-  z-index: 100;
-}
-.gua3{
-  position: absolute;
-  top: calc(var(--vh, 1vh) * 97);
-  left: 40vw;
-  z-index: 100;
-}
-.gua4{
-  position: absolute;
-  bottom: calc(var(--vh, 1vh) * 5);
-  left: 60vw;
-  z-index: 100;
-}
-.gua5{
-  position: absolute;
-  bottom: 0vh;
-  left: 80vw;
-  z-index: 100;
-}
-
 
 .hand{
   position: absolute;
@@ -245,11 +215,11 @@ section {
 /* ------ SECTION 6 ------- */
 .text6{
   position: absolute;
-  top: 20vh;
+  top: 15vh;
 }
 .imgpos6{
   position: absolute;
-  bottom: 5vh;
+  bottom: 10vh;
   width: 100vw;
   display: flex;
   align-items: center;
@@ -378,7 +348,7 @@ section {
 
 .text13b{
   position: absolute;
-  bottom: 10vh;
+  bottom: 20vh;
   width: 80vw;
   margin-left: 10vw;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -406,16 +376,16 @@ section {
   width: 80vw;
   margin-left: 10vw;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: medium;
+  font-size: large;
   text-align: center;
 }
 .text14b{
   position: absolute;
-  bottom: 5vh;
+  bottom: 10vh;
   width: 80vw;
   margin-left: 10vw;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size:small;
+  font-size:medium;
   text-align: left;
   line-height: 8dvw;
 }
