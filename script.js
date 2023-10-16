@@ -216,7 +216,7 @@ if(actsec > 12.9 && anisec14){
 
 }); // end of scroll listening
 
-// cssScrollSnapPolyfill()
+cssScrollSnapPolyfill()
 }
 init();
 
