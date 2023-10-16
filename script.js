@@ -78,17 +78,17 @@ if(actsec > 1.9 && actsec < 2.1 && anisec3){
 	  ts3
 	  .add({
 		  targets: '.imgpos3a',
-		  translateY: '100vh',
+		  translateY: '95vh',
 		  opacity: 1
 		})
 		.add({
 			targets: '.imgpos3b',
-			translateY: '100vh',
+			translateY: '95vh',
 			opacity: 1
 		}, '-=2000')
 		.add({
 			targets: '.imgpos3c',
-			translateY: '100vh',
+			translateY: '95vh',
 			opacity: 1
 		}, '-=2000')	   
 	}

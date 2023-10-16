@@ -8,7 +8,7 @@ class Anitext extends HTMLElement {
       this.innerHTML = `
 
 <div class="">
-<svg id="textbox" style="display: block;" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 537.55 94.07">
+<svg id="textbox" style="display: none;" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 537.55 94.07">
   <defs>
    <g id="mask">
       <mask id="mask-mask-01">
