@@ -172,6 +172,7 @@ section {
   filter: drop-shadow(0px 5px 5px #222);
 } */
 .imgpos3a{
+  opacity: .1;
   position: absolute;
   bottom: 105vh;
   left: 15vw;
@@ -181,6 +182,7 @@ section {
   filter: drop-shadow(0px 5px 5px #222);
 }
 .imgpos3b{
+  opacity: .1;
   position: absolute;
   bottom: 105vh;
   left: 45vw;
@@ -190,6 +192,7 @@ section {
   filter: drop-shadow(0px 5px 5px #222);
 }
 .imgpos3c{
+  opacity: .1;
   position: absolute;
   bottom: 105vh;
   left: 70vw;
@@ -256,8 +259,9 @@ section {
 }
 .imgpos6 img{
   border-radius: 3vw;
-  width: 80vw;
+  width: 70vw;
   filter: drop-shadow(0px 5px 5px #222);
+  opacity: 0.5;
 }
 
 
@@ -388,7 +392,7 @@ section {
 /* ------ SECTION 14 ------- */
 .imgpos14{
   position: absolute;
-  top: 5vh;
+  top: 20vh;
   width: 100vw;
   display: flex;
   align-items: center;
@@ -396,8 +400,9 @@ section {
 }
 .imgpos14 img{
   border-radius: 3vw;
-  width: 60vw;
-  filter: drop-shadow(0px 5px 5px #222);
+  opacity: 0.1;
+  width: 10vw;
+  filter: drop-shadow(0px .5px .5px #222);
 }
 .text14{
   position: absolute;
