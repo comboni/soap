@@ -7,7 +7,7 @@ class Header extends HTMLElement {
     connectedCallback() {
       this.innerHTML = `
 
-      <div class="">
+      <div id="logoparts">
       <svg version="1.2" viewBox="3461 6404 7047 7269" preserveAspectRatio="xMidYMid" fill-rule="evenodd" stroke-width="28.222" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" xmlns:ooo="http://xml.openoffice.org/svg/export" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:presentation="http://sun.com/xmlns/staroffice/presentation" xmlns:smil="http://www.w3.org/2001/SMIL20/" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xml:space="preserve">
           <g id="id3" class="fpart">
            <path fill="rgb(255,255,255)" stroke="none" d="M 10507,10190 C 10507,8267 8949,6709 7027,6709 5104,6709 3546,8267 3546,10190 3546,12112 5104,13671 7027,13671 8949,13671 10507,12112 10507,10190 Z"/>

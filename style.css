@@ -172,6 +172,18 @@ section {
 
 /* ------ SECTION 2 ------- */
 
+#btnsec2{
+  position: absolute;
+  top: 0vh;
+  left: 0vw;
+
+}
+#btnsec2b{
+  position: absolute;
+  top: 5vh;
+  left: 0vw;
+
+}
 .text2{
   position: absolute;
   top: 10vh;
