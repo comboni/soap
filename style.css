@@ -65,7 +65,7 @@ section {
   width: 70vw;
   margin-left: 15vw;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: larger;
+  font-size:x-large;
   text-align: center;
 }
 
@@ -117,6 +117,18 @@ section {
   width: 60vw;
 }
 
+.rugiada_text{
+  position: absolute;
+  top: 26vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rugiada_text rugiada-text{
+  width: 60vw;
+}
+
 .fpart{
   opacity: 0;
 }
@@ -128,6 +140,34 @@ section {
   position: absolute;
   top: 50vh;
 }
+
+@keyframes strokeOffsetR {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+#mask-r {
+  animation: strokeOffsetR 1s linear forwards 2s;
+}  
+#mask-u {
+  animation: strokeOffsetR 0.5s linear forwards 3s;
+}  
+#mask-g {
+  animation: strokeOffsetR 1s linear forwards 3.5s;
+}  
+#mask-i {
+  animation: strokeOffsetR 0.5s linear forwards 4.5s;
+}  
+#mask-a1 {
+  animation: strokeOffsetR 1s linear forwards 5s;
+}  
+#mask-d {
+  animation: strokeOffsetR 1s linear forwards 6s;
+}    
+#mask-a2 {
+  animation: strokeOffsetR 1s linear forwards 7s;
+}    
 
 /* ------ SECTION 2 ------- */
 

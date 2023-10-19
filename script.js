@@ -53,6 +53,16 @@ const init = function(){
 	delay: 5000,
 	})
 
+	//Animation text Rugiada
+	document.getElementById('textrugiada').style.display = 'block' 	
+	const masks = ['r', 'u', 'g', 'i', 'a1', 'd', 'a2']
+	masks.forEach((mask, index, el) => {
+		const id = `#mask-${mask}` // Prepend #mask- to each mask element name
+		let path = document.querySelector(id)
+		const length = path.getTotalLength() // Calculate the length of a path
+		path.style.strokeDasharray = length; // Set the length to stroke-dasharray in the styles
+		path.style.strokeDashoffset = length; // Set the length to stroke-dashoffset in the styles
+	})
 
 // Add a scroll event listener to the element.
 scrollElement.addEventListener('scroll', function () {
@@ -60,12 +70,18 @@ scrollElement.addEventListener('scroll', function () {
   var actsec = scrollElement.scrollLeft / winWidth
 
 // Animation Section 2 =============================
+var ts2 = anime.timeline({
+	easing: 'easeOutElastic(1, .6)',
+	duration: 3000
+});
 if(actsec > 0.9 && actsec < 1.1 && anisec2){
 	anisec2 = false
-	anime({
+	ts2
+	.add({
 		targets: '#img1_sec2',
 		scale: 1.1
-	});
+	})
+
 }
 // Animation Section 3 =============================
 if(actsec > 1.9 && actsec < 2.1 && anisec3){
@@ -73,10 +89,10 @@ if(actsec > 1.9 && actsec < 2.1 && anisec3){
 	var ts3 = anime.timeline({
 		easing: 'easeOutElastic(1, .6)',
 		duration: 3000
-	  });
-	  // Add children
-	  ts3
-	  .add({
+	});
+	// Add children
+	ts3
+	.add({
 		  targets: '.imgpos3a',
 		  translateY: '95vh',
 		  opacity: 1
@@ -90,7 +106,7 @@ if(actsec > 1.9 && actsec < 2.1 && anisec3){
 			targets: '.imgpos3c',
 			translateY: '95vh',
 			opacity: 1
-		}, '-=2000')	   
+		}, '-=2000')	
 	}
 // Animation Section 4 =============================
 if(actsec > 2.9 && actsec < 3.1 && anisec4){
@@ -210,6 +226,7 @@ if(actsec > 12.9 && anisec14){
 		opacity: 1,
 		scale: 6
 	  });
+
 }
 
 
