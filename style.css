@@ -73,8 +73,9 @@ section {
   width: 70vw;
   margin-left: 15vw;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size:large;
+  font-size:larger;
   text-align: center;
+  line-height: 3vh;
 }
 .titlesoap{
   position: absolute;
@@ -119,7 +120,7 @@ section {
 
 .rugiada_text{
   position: absolute;
-  top: 26vh;
+  top: 25vh;
   width: 100vw;
   display: flex;
   align-items: center;
