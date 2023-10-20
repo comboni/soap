@@ -528,7 +528,7 @@ section {
   
   .hand{
     position: absolute;
-    bottom: 10vh;
+    bottom: 15vh;
     left: 90vw;
     /* border: blue solid 1px; */
     animation: linear infinite;
@@ -543,7 +543,7 @@ section {
   
   .logo{
     position: absolute;
-    top: 10vh;
+    top: 5vh;
     left: 5vw;
     width: 30vw;
     overflow: hidden;
@@ -630,7 +630,7 @@ section {
   
   .imgsoap1{
     position: absolute;
-    top: 15vh;
+    top: 10vh;
     left: 5vw;
     display: flex;
     align-items: center;
@@ -661,7 +661,7 @@ section {
   .imgpos3a{
     opacity: .1;
     position: absolute;
-    bottom: 105vh;
+    bottom: 115vh;
     left: 15vw;
   }
   .imgpos3a img{
@@ -671,7 +671,7 @@ section {
   .imgpos3b{
     opacity: .1;
     position: absolute;
-    bottom: 105vh;
+    bottom: 115vh;
     left: 40vw;
   }
   .imgpos3b img{
@@ -681,7 +681,7 @@ section {
   .imgpos3c{
     opacity: .1;
     position: absolute;
-    bottom: 105vh;
+    bottom: 115vh;
     left: 60vw;
   }
   .imgpos3c img{
@@ -694,12 +694,12 @@ section {
   /* ------ SECTION 4 ------- */
   .text4{
     position: absolute;
-    top: 20vh;
+    top: 8vh;
     left: 30vw;
   }
   .imgpos4{
     position: absolute;
-    top: 15vh;
+    top: 8vh;
     left: 5vw;
     display: flex;
     align-items: center;
@@ -712,7 +712,7 @@ section {
   }
   .imgpos4b{
     position: absolute;
-    top: 90vh;
+    top: 70vh;
     width: 100vw;
     display: flex;
     align-items: center;
@@ -729,19 +729,19 @@ section {
   /* ------ SECTION 5 ------- */
   .text5{
     position: absolute;
-    top: 20vh;
+    top: 8vh;
     right: 5vw;
   }
   
   /* ------ SECTION 6 ------- */
   .text6{
     position: absolute;
-    top: 30vh;
+    top: 20vh;
     right: 5vw;
   }
   .imgpos6{
     position: absolute;
-    top: 30vh;
+    top: 20vh;
     left: 5vw;
     display: flex;
     align-items: center;
@@ -871,7 +871,7 @@ section {
   
   .text13b{
     position: absolute;
-    bottom: 15vh;
+    bottom: 25vh;
     width: 80vw;
     margin-left: 10vw;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -896,7 +896,7 @@ section {
   }
   .text14{
     position: absolute;
-    top: 10vh;
+    top: 5vh;
     left: 50vw;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: large;
@@ -905,21 +905,21 @@ section {
   }
   .text14b{
     position: absolute;
-    bottom: 10vh;
+    bottom: 18vh;
     left: 50vw;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size:medium;
     text-align: left;
-    line-height: 4dvw;
+    line-height: 3dvw;
   }
   .text14btitle{
     font-weight: bold;
   }
   .icon{
     position: relative;
-    top: 2vw; 
+    top: 1.4vw; 
     margin-right: 2vw;
-    width: 5vw;
+    width: 4vw;
   }
 
 
