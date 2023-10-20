@@ -97,7 +97,7 @@ section {
 
 .hand{
   position: absolute;
-  bottom: 15vh;
+  bottom: 12vh;
   left: 80vw;
   /* border: blue solid 1px; */
   animation: linear infinite;
@@ -109,31 +109,23 @@ section {
   width: 10vh;
   opacity: 1;
 }
-
+.logobox{
+  position: absolute;
+  top: 5vh;
+  width: 100vw;
+}
 .logo{
-  position: absolute;
-  top: 10vh;
-  width: 100vw;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  position: relative;
+  left: 15vw;
+  width: 70vw;
 }
-.logo logo-text{
-  width: 60vw;
+.rugiada_text{
+  position: relative;
+  top: -38vw;
+  left: 15vw;
+  width: 70vw;
 }
 
-.rugiada_text{
-  position: absolute;
-  top: 25vh;
-  width: 100vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.rugiada_text rugiada-text{
-  width: 60vw;
-}
 
 .fpart{
   opacity: 0;
@@ -541,31 +533,20 @@ section {
     opacity: 1;
   }
   
-  .logo{
+  .logobox{
     position: absolute;
     top: 5vh;
     left: 5vw;
     width: 30vw;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
   }
-  .logo logo-text{
-    width: 60vw;
+  .logo{
+    position: relative;
+    left: 0vw;
   }
-  
   .rugiada_text{
-    position: absolute;
-    top: 38vh;
-    left: 5vw;
-    width: 30vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .rugiada_text rugiada-text{
-    width: 60vw;
+    position: relative;
+    top: -16vw;
+    left: 0vw;
   }
   
   .fpart{
