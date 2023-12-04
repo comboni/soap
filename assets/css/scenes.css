@@ -42,6 +42,27 @@ section{
 	height: calc(var(--vh, 1vh) * 100);
 	background-color:white;
 }
+.scrollicon{
+    position: fixed;
+    top: calc(var(--vh, 1vh) * 85);
+    right: 5vw;
+    width: 15vw;
+    animation: flicker 1s infinite;
+}
+.scrollicon img{
+    width: 15vw;
+}
+@keyframes flicker { 
+    0% {
+        opacity: 0;
+    }
+     50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+  }
 #sec01_01{ /*Come la rugiada...*/
     position: absolute;
     top: calc(var(--vh, 1vh) * 10);
